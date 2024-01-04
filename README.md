@@ -1,10 +1,10 @@
 # AWS CloudTrail Event Analyzer
 
 ## Overview
-This Python script is designed to analyze AWS CloudTrail logs. It allows users to search for CloudTrail events based on a specific user's email or Access Key ID. The script provides detailed information about the activities performed from different IP addresses, including the count of events, types of events executed, and the timestamp of the last event for each IP address.
+This Python script is designed to analyze AWS CloudTrail logs. It allows users to search for CloudTrail events based on a specific IAM username or Access Key ID. The script provides detailed information about the activities performed from different IP addresses, including the count of events, types of events executed, and the timestamp of the last event for each IP address.
 
 ## Features
-- **User-Specific Search**: Filter CloudTrail events by a user's email or Access Key ID.
+- **User-Specific Search**: Filter CloudTrail events by IAM username or Access Key ID.
 - **Event Analysis**: Get a detailed breakdown of the activities per IP address, including the count of events and the types of events executed.
 - **Date Tracking**: Track the timestamp of the last event executed from each IP address.
 
@@ -16,26 +16,13 @@ This Python script is designed to analyze AWS CloudTrail logs. It allows users t
 ## Usage
 1. **Set Up**: Ensure AWS CLI is configured with the necessary access rights to interact with CloudTrail logs.
 2. **Run the Script**: Execute the script in a Python environment.
-3. **User Input**: When prompted, input the search criteria (email or Access Key ID), the specific event name to filter, the number of days to look back, and the AWS region to search in.
+3. **User Input**: When prompted, input the search criteria (username or Access Key ID), the specific event name to filter, the number of days to look back, and the AWS region to search in.
 4. **View Results**: The script will output a list of IP addresses with details on the count of events, types of events, and the timestamp of the last event.
 
 ## Installation
 To install the script, clone this repository to your local machine using:
 `git clone [repository-url]`
 
-## Dependencies
-Install the required Python libraries using:
-`pip install -r requirements.txt`
-
 ## Configuration
 Before running the script, ensure that your AWS CLI is configured with the appropriate credentials. You can configure it using:
 `aws configure`
-
-## Contribution
-Contributions to this project are welcome! Please fork the repository and submit a pull request with your enhancements.
-
-## License
-This project is released under the [MIT License](LICENSE).
-
-## Disclaimer
-This script is provided "as is", without warranty of any kind. Use it at your own risk. Please ensure you have permission to access and analyze CloudTrail logs as per your AWS account policies.
