@@ -26,3 +26,6 @@ To install the script, clone this repository to your local machine using:
 ## Configuration
 Before running the script, ensure that your AWS CLI is configured with the appropriate credentials. You can configure it using:
 `aws configure`
+
+## Using
+<img width="1058" alt="image" src="https://github.com/dvinskikh/aws-cloudtrail-event-analyzer/assets/102820548/8e8bf17f-042a-4f0d-b8ca-bd3ccd89fb2f">
