@@ -28,4 +28,11 @@ Before running the script, ensure that your AWS CLI is configured with the appro
 `aws configure`
 
 ## Using
-<img width="1058" alt="image" src="https://github.com/dvinskikh/aws-cloudtrail-event-analyzer/assets/102820548/8e8bf17f-042a-4f0d-b8ca-bd3ccd89fb2f">
+- Export results to CSV file
+![image](https://github.com/alex-cloudsec/aws-cloudtrail-event-analyzer/assets/102820548/d3cc3368-56e1-4ff4-be22-b7063d0cd32f)
+![image](https://github.com/alex-cloudsec/aws-cloudtrail-event-analyzer/assets/102820548/1264eb82-ae68-4f8b-a27d-0ac9cd0ffacc)
+
+- Show results in Terminal
+![image](https://github.com/alex-cloudsec/aws-cloudtrail-event-analyzer/assets/102820548/a56e0527-cc3b-4622-9c0e-b784bf73e11e)
+
+
