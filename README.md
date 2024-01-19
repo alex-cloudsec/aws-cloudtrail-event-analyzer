@@ -29,6 +29,7 @@ Before running the script, ensure that your AWS CLI is configured with the appro
 
 ## Using
 - Export results to CSV file
+
 ![image](https://github.com/alex-cloudsec/aws-cloudtrail-event-analyzer/assets/102820548/d3cc3368-56e1-4ff4-be22-b7063d0cd32f)
 ![image](https://github.com/alex-cloudsec/aws-cloudtrail-event-analyzer/assets/102820548/1264eb82-ae68-4f8b-a27d-0ac9cd0ffacc)
 
