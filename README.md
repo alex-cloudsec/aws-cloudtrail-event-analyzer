@@ -34,6 +34,7 @@ Before running the script, ensure that your AWS CLI is configured with the appro
 ![image](https://github.com/alex-cloudsec/aws-cloudtrail-event-analyzer/assets/102820548/1264eb82-ae68-4f8b-a27d-0ac9cd0ffacc)
 
 - Show results in Terminal
+
 ![image](https://github.com/alex-cloudsec/aws-cloudtrail-event-analyzer/assets/102820548/a56e0527-cc3b-4622-9c0e-b784bf73e11e)
 
 
